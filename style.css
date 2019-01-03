@@ -1,0 +1,191 @@
+*{
+  box-sizing: border-box;
+}
+nav{
+  transform: rotate(-90deg);
+  bottom: 282px;
+  position: fixed;
+  left: 57em;
+}
+
+.logoDiv{
+  margin-left: 42%;
+}
+.logo{
+  width: 12em;
+  height: 13em;
+}
+
+.welcomeContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3em;
+}
+
+.welcomeParagraph{
+  width: 45em;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  width: 75vh;
+  justify-content: space-between;
+  justify-content: space-between;
+}
+
+.line-1{
+  width: 10vh;
+  height: 1px;
+  background: black;
+  position: absolute;
+  top: 26px;
+  left: 504px;
+}
+.line-2{
+  width: 10vh;
+  height: 1px;
+  background: black;
+  position: absolute;
+  top: 26px;
+  right: 469px;
+}
+
+.blackBox1{
+  background: black;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: 0vh;
+  transform: translate(-40%, 45%);
+}
+
+.blackBox2{
+  background: black;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: 0vh;
+  transform: translate(-40%, 45%);
+}
+.aboutmeImgDiv{
+  padding-right: 4em;
+  padding-left: 4em;
+}
+.headContainer{
+  height: 41.4em;
+}
+.aboutmeImg{
+  width: 28vw;
+  height: 65vh;
+  border-radius: 50%;
+  padding: 15px;
+  border: 2px solid #d3d3d3;
+  margin-top: -3em;
+}
+
+.aboutmeText{
+  width: 30em;
+  text-align: center;
+  margin-top: 8em;
+}
+.aboutmeH1{
+  text-align: center;
+  padding-bottom: 2.5em;
+}
+.aboutmeContentWrapper{
+  display: flex;
+}
+.aboutmeContainer{
+  border-top: solid;
+  border-color: lightgrey;
+  width: 70em;
+  height: 42em;
+}
+
+.aboutmeParagraph{
+  width: 30em;
+}
+
+.projectsContainer{
+  border-top: solid;
+  border-bottom: solid;
+  border-color: lightgrey;
+  width: 70em;
+}
+
+.project4, .project2{
+  margin-left: 5em;
+}
+.projectImage{
+  background-color: yellow;
+  height: 29em;
+  width: 34em;
+  box-shadow: 14px 12px 20px #97979788;
+}
+.projectText{
+  background-color: white;
+  height: 25em;
+  width: 24em;
+  margin-top: 2em;
+  margin-left: -1em;
+  z-index: -1;
+  box-shadow: 14px 12px 20px #97979788;
+}
+
+.project4Display{
+  display: flex;
+}
+
+.projectLinks{
+  height: 13em;
+  width: 16em;
+  margin-left: 27em;
+  margin-top: -8em;
+  background-color: lightgrey;
+  position: relative;
+  box-shadow: 14px 12px 20px #97979788;
+  z-index: -2;
+}
+
+.project3, .project1{
+  margin-top: 6em;
+  margin-right: 7em;
+  margin-bottom: 6em;
+}
+
+.project3Display{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.skillsContainer{
+  width: 70em;
+  height: 42em;
+  padding-top: 5em;
+  padding-left: 16em;
+}
+.technologies{
+  background-color: yellow;
+  height: 36em;
+  width: 15em;
+  margin-top: 3em;
+  margin-left: -2em;
+  z-index: -1;
+  box-shadow: 14px 12px 20px #97979788;
+}
+.methodology{
+  background-color: green;
+  height: 26em;
+  width: 15em;
+  box-shadow: 14px 12px 20px #97979788;
+}
+.skillsContentWrapper{
+  display: flex;
+  justify-content: center
+}
+.skills{
+  margin-right: -14.3em;
+  margin-top: 0.2em;
+
+}
