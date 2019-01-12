@@ -1,154 +1,185 @@
+<!--
+.record showpage with trailer as giphy to be used in project colage
+.sort out flames
+.fix nav bar, stretches off screen in max size
+.projects not responsive
+.add hover overlay to project pics showing name and time
+
+-->
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
   <title>Femi</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media-queries.css">
 </head>
 <body>
+
   <main>
     <nav>
       <ul>
-        <li>
-          <span class="line-1"><img class="topFlame" src="img/lineRight.jpg"/></span>
-        </li>
+        <li><img src="/img/flame.jpg" width="100" /></li>
         <li>Contact</li>
         <li>Skills</li>
         <li>Projects</li>
         <li>About</li>
-        <li>
-          <span class="line-2"><img class="bottomFlame" src="img/lineLeft.jpg .jpg"/></span>
-        </li>
+        <li><img src="/img/flame.jpg" width="100" /></li>
       </ul>
     </nav>
 
-    <div class="headContainer">
-      <div class="logoDiv">
-        <img src="img/phoneix.jpg" class="logo" alt="phoneix logo"/>
+    <div class="welcome section">
+      <div class="logo">
+        <img src="img/phoneix.jpg" alt="phoneix logo"/>
       </div>
-      <div class="welcomeContent">
-        <h1>Femi Coker</h1>
-        <h2>Web Developer</h2>
-        <p class="welcomeParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p><strong>Random text about me in an array to be infinitly shuffled randomly</strong></p>
-      </div>
+      <h1>Femi Coker</h1>
+      <h2>Web Developer</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p><strong>Random text about me in an array to be infinitly shuffled randomly</strong></p>
+      <hr />
     </div>
-<!--ABOUT ME  -->
-    <div class="aboutmeContainer">
+
+    <!--ABOUT ME  -->
+    <h3>About Me</h3>
+    <div class="about section">
+      <img src="img/profile.JPG" alt="Femi Coker IMG" class="profile">
       <div>
-        <h1 class="aboutmeH1">About Me</h1>
-      </div>
-      <div class="aboutmeContentWrapper">
-        <div class="aboutmeImgDiv">
-          <img src="img/profile.JPG" alt="Femi Coker IMG" class="aboutmeImg">
-        </div>
-        <div class="aboutmeText">
-          <h2>My name is Femi and I'm a Developer.</h2>
-          <p>Based in London.</p>
-          <p class="aboutmeParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+        <h4>My name is Femi and I'm a Developer.</h4>
+        <h5>Based in London.</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
-<!-- PROJECTS -->
+    <hr />
+
+    <!-- PROJECTS -->
     <div class="projectsContainer">
       <h1>Projects</h1>
       <!-- project 4  -->
-      <div class="project4">
-        <div class="project4Display">
-          <div class="projectImage">
-            <div class="imageTest">
-            </div>
-          </div>
-          <div class="projectText">
-            <div class="text">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </div>
+      <div class="project">
+          <img src="img/PnW/PnWIndex.png" class="imageInBox img1" />
+        <div class="projectText">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="projectLinks">
         </div>
       </div>
-      <!-- project 3  -->
-      <div class="project3">
-        <div class="project3Display">
-          <div class="projectImage">
-            <div class="imageTest">
-            </div>
-          </div>
+        <!-- project 3  -->
+        <div class="project">
+            <img src="img/events/profile.png" class="imageInBox img1" />
           <div class="projectText">
-            <div class="text">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="projectLinks">
           </div>
         </div>
-        <div class="projectLinks">
-        </div>
-      </div>
-      <!-- project 2  -->
-      <div class="project2">
-        <div class="project4Display">
-          <div class="projectImage">
-            <div class="imageTest">
-            </div>
-          </div>
+        <!-- project 2  -->
+        <div class="project">
+            <img src="img/circuits/circuitsHome.png" class="imageInBox img1" />
           <div class="projectText">
-            <div class="text">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="projectLinks">
           </div>
         </div>
-        <div class="projectLinks">
-        </div>
-      </div>
-      <!-- project 1  -->
-      <div class="project1">
-        <div class="project3Display">
-          <div class="projectImage">
-            <div class="imageTest">
-            </div>
-          </div>
+        <!-- project 1  -->
+        <div class="project">
+          <img src="img/battleship/Screenshot 2019-01-04 at 16.21.15.png" class="imageInBox img1" />
           <div class="projectText">
-            <div class="text">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="projectLinks">
           </div>
         </div>
-        <div class="projectLinks">
+      </div>
+      <hr />
+      <!--SKILLS  -->
+      <div class="skillsContainer">
+        <h2 class="skills">SKILLS</h2>
+        <div class="skillsContentWrapper">
+          <div class="methodology">
+            <ul>
+              <li>HTML5</li>
+              <li>JavaScript</li>
+              <li>CSS</li>
+              <li>React.js</li>
+              <li>Angularjs</li>
+              <li>Bulma</li>
+              <li>EJS</li>
+              <li>MongoDB</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>Yarn</li>
+              <li>CSS</li>
+            </ul>
+            <ul>
+              <li>HTML5</li>
+              <li>JavaScript</li>
+              <li>CSS</li>
+              <li>React.js</li>
+              <li>Angularjs</li>
+              <li>Bulma</li>
+              <li>EJS</li>
+              <li>MongoDB</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>Yarn</li>
+              <li>CSS</li>
+            </ul>
+            <ul>
+              <li>HTML5</li>
+              <li>JavaScript</li>
+              <li>CSS</li>
+              <li>React.js</li>
+              <li>Angularjs</li>
+              <li>Bulma</li>
+              <li>EJS</li>
+              <li>MongoDB</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>Yarn</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="technologies">
+            <ul>
+              <li>HTML5</li>
+              <li>JavaScript</li>
+              <li>CSS</li>
+              <li>React.js</li>
+              <li>Angularjs</li>
+              <li>Bulma</li>
+              <li>EJS</li>
+              <li>MongoDB</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>Yarn</li>
+              <li>CSS</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <!--SKILLS  -->
-    <div class="skillsContainer">
-      <div class="skillsContentWrapper">
-        <h2 class="skills">SKILLS
-        </h2>
-
-        <div class="methodology">
+      <hr />
+      <!--CONTACT  -->
+      <div class="contactContainer">
+        <h1>Contact Me!</h1>
+        <p>For further information feel free to contact me</p>
+        <div class="contactGrid">
+          <a href="#">
+            <img src="img/git.jpg" alt="git logo" class="contactLogo">
+          </a>
+          <a href="#">
+            <img src="img/linkedin.png" alt="linkedin logo" class="contactLogo">
+          </a>
+          <a href="#">
+            <img src="img/email.png" alt="email logo" class="contactLogo">
+          </a>
 
         </div>
-        <div class="technologies">
-
-        </div>
-      </div>
-    </div>
-    <!--CONTACT  -->
-    <div class="contactContainer">
-      <h1>Contact Me!</h1>
-      <p>For further information feel free to contact me</p>
-      <div class="contactGrid">
-        <a href="#">
-          <img src="img/git.jpg" alt="git logo" class="contactLogo">
-        </a>
-        <a href="#">
-          <img src="img/linkedin.png" alt="linkedin logo" class="contactLogo">
-        </a>
-        <a href="#">
-          <img src="img/email.png" alt="email logo" class="contactLogo">
-        </a>
 
       </div>
+    </main>
 
-    </div>
-  </main>
 </body>
 </html>

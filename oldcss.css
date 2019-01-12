@@ -1,0 +1,267 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* nav{
+  transform: rotate(-90deg);
+  position: fixed;
+
+} */
+
+ul.mainMenu {
+  margin: 0;
+  padding: 0px;
+
+}
+
+ul.mainMenu li {
+  padding: 0 20px;
+  display: inline-block;
+}
+
+.logoDiv{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.logo{
+  width: 12em;
+  height: 13em;
+}
+
+.welcomeContent h1,
+.welcomeContent h2 {
+ width: 100%;
+ text-align: center;
+}
+
+.welcomeParagraph{
+
+}
+
+
+.line-1{
+  position: absolute;
+  top: 26px;
+  left: 504px;
+}
+
+.topFlame{
+  height: 7em;
+  width: 8em;
+  margin-top: -3.5em;
+  margin-left: -2.3em;
+}
+.bottomFlame{
+  height: 7em;
+  width: 8em;
+  margin-top: -3.5em;
+  margin-right: -3em;
+}
+
+.line-2{
+  position: absolute;
+  top: 26px;
+  right: 469px;
+}
+
+.aboutmeImgDiv{
+  padding-right: 4em;
+  padding-left: 4em;
+}
+.headContainer{
+  margin: 0 0 30px 0;
+}
+.aboutmeImg{
+  width: 28vw;
+  height: 65vh;
+  border-radius: 50%;
+  padding: 15px;
+  border: 2px solid #d3d3d3;
+  margin-top: -3em;
+}
+
+.aboutmeText{
+  width: 30em;
+  text-align: center;
+  margin-top: 8em;
+}
+.aboutmeH1{
+  text-align: center;
+  padding-bottom: 2.5em;
+}
+.aboutmeContentWrapper{
+  display: flex;
+}
+.aboutmeContainer{
+  border-top: solid;
+  border-color: lightgrey;
+}
+
+.aboutmeParagraph{
+  width: 30em;
+}
+
+.projectsContainer{
+  border-top: solid;
+  border-bottom: solid;
+  border-color: lightgrey;
+  width: 68em;
+}
+
+.project4, .project2{
+  margin-left: 5em;
+}
+.projectImage{
+  background-color: yellow;
+  height: 29em;
+  width: 34em;
+  box-shadow: 14px 12px 20px #97979788;
+}
+.projectText{
+  background-color: white;
+  height: 25em;
+  width: 24em;
+  margin-top: 2em;
+  margin-left: -1em;
+  z-index: -1;
+  box-shadow: 14px 12px 20px #97979788;
+}
+
+.project4Display{
+  display: flex;
+}
+
+.projectLinks{
+  height: 13em;
+  width: 16em;
+  margin-left: 27em;
+  margin-top: -8em;
+  background-color: lightgrey;
+  position: relative;
+  box-shadow: 14px 12px 20px #97979788;
+  z-index: -2;
+}
+
+.project3, .project1{
+  margin-top: 6em;
+  margin-right: 7em;
+  margin-bottom: 6em;
+}
+
+.project3Display{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.skillsContainer{
+  width: 70em;
+  height: 44em;
+  padding-top: 3em;
+  padding-left: 16em;
+  border-bottom: solid;
+  border-color: lightgrey;
+  width: 70em;
+}
+.technologies{
+  background-color: yellow;
+  height: 35em;
+  width: 15em;
+  margin-top: 3em;
+  margin-left: -2em;
+  z-index: -1;
+  box-shadow: 14px 12px 20px #97979788;
+}
+.methodology{
+  background-color: green;
+  height: 26em;
+  width: 15em;
+  box-shadow: 14px 12px 20px #97979788;
+}
+.skillsContentWrapper{
+  display: flex;
+  justify-content: center
+}
+.skills{
+  margin-right: -14.3em;
+  margin-top: 0.2em;
+}
+.contactContainer{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.contactLogo{
+  height: 3em;
+  width: 3em;
+  border-radius: 100%;
+}
+.contactGrid{
+  width: 33em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.imageBox {
+  position: relative;
+}
+
+.imageBox .imageInBox {
+  position: absolute;
+  transform: rotate(-30deg);
+  box-shadow: -4px 6px 9px #00000050;
+}
+
+.imageBox .imageInBox.img1 {
+  top: 90px;
+  left: 50px;
+  width: 250px;
+}
+
+.imageBox .imageInBox.img2 {
+  top: 270px;
+  left: 20px;
+  width: 300px;
+}
+
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (orientation : portrait) {
+
+  nav{
+    transform: none;
+    position: fixed;
+    left: auto;
+    top: 20px;
+    bottom: auto;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  ul.mainMenu li:first-child {
+    transform: rotate(0deg);
+  }
+
+  ul.mainMenu li:last-child {
+    transform: rotate(180deg);
+  }
+
+  .wrapper {
+    width: 100%;
+    padding: 1.5em;
+  }
+
+}
