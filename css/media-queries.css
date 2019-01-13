@@ -5,7 +5,7 @@ and (min-device-width : 768px) {
     top: 0px;
     transform: rotate(270deg);
     transform-origin: right;
-    width: 70%;
+    width: 50%;
   }
 
   nav ul {

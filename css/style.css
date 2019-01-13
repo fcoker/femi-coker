@@ -11,6 +11,7 @@ body, html  {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  background-color: #efefef;
 }
 
 main {
@@ -26,6 +27,7 @@ nav {
   text-align: center;
   top: 30px;
   right: auto;
+  z-index: 1000;
 }
 
 nav ul {
@@ -36,12 +38,22 @@ nav ul {
 }
 
 nav ul li {
-  font-size: 1em;
+  font-size: 1.2em;
   display: table-cell;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
 }
 
 nav ul li:last-child {
   transform: rotate(180deg);
+}
+
+.NavlistItems{
+  position: relative;
+  bottom: 7px;
 }
 
 
@@ -118,7 +130,6 @@ strong {
 }
 
 .about img {
-  height: 50vh;
   border-radius: 50%;
   padding: 15px;
   border: 2px solid #d3d3d3;
@@ -134,64 +145,110 @@ strong {
 .about .profile {
   width: 28%;
 }
+
 .project{
-  display: flex;
-  padding-bottom: 16em;
+  position: relative;
+  margin-bottom: 16em;
+  height: 400px;
 }
-.project img{
+
+.project p{
+  padding-left: 19%;
+  padding-top: 10px;
+  font-size: 18px;
+  padding-right: 1%;
+}
+.project .imageInBox{
   width: 55%;
   height: 24em;
   box-shadow: 14px 12px 20px #97979788;
-
+  z-index: 3;
+  position: absolute;
+  top: 2em;
+  left: 4em;
 }
 
 .project .projectText{
-  border: solid;
-  width: 41em;
-  position: relative;
-  top: 4em;
-  right: 2em;
-  z-index: -1;
-  background-color: lightgrey;
+  width: 20em;
+  position: absolute;
+  top: 0em;
+  right: 7em;
+  z-index: 2;
+  background-color: #ffffff;
   box-shadow: 14px 12px 20px #97979788;
+  padding: 1.5em;
 }
 
 .project .projectLinks{
-  background-color: yellow;
-  width: 38em;
-  height: 15em;
-  position: relative;
+  background-color: #96a0a0;
+  width: 10em;
+  height: 10em;
+  position: absolute;
   top: 19em;
-  right: 26em;
-  z-index: -2;
+  right: 20em;
+  z-index: 1;
   box-shadow: 14px 12px 20px #97979788;
 }
 
+.projectGit{
+  position: relative;
+  width: 24%;
+  left: 13%;
+  top: 74%;
+  height: 22%;
+}
+
+.projectChain{
+  position: relative;
+  width: 24%;
+  left: 37%;
+  top: 74%;
+  height: 22%;
+}
 
 .methodology{
   background-color: white;
-  width: 25%;
   box-shadow: 14px 12px 20px #97979788;
+  z-index: 2;
+  padding: 2em;
+  line-height: 1.5;
+  background-color: #96a0a0;
+  color: white;
+}
+
+.methodology li{
+  font-size: 18px;
+}
+
+.methodology h4{
+  font-weight: 900;
 }
 
 .technologies{
-  background-color: lightgrey;
-  width: 23%;
+  background-color: white;
   height: 100%;
   position: relative;
-  right: 3%;
+  right: 1%;
   top: 2em;
-  z-index: -1;
+  z-index: 1;
   box-shadow: 14px 12px 20px #97979788;
+  line-height: 1.5;
+  padding: 1em;
 }
 
+.technologies li{
+  font-size: 18px;
+}
 .skillsContentWrapper{
   display: flex;
   text-align: center;
   justify-content: center;
 }
+
+
 .contactContainer{
   text-align: center;
+  padding-bottom: 4%;
 }
 
 .contactLogo{
@@ -202,4 +259,9 @@ strong {
 .contactGrid{
   display: flex;
   text-align: center;
+}
+
+.contactContainer p{
+  padding-bottom: 9%;
+  padding-top: 5%;
 }
