@@ -1,11 +1,11 @@
 <!--
-.record showpage with trailer as giphy to be used in project colage
-.sort out flames
+.sort out flames padding in responsive view
 .fix nav bar, stretches off screen in max size
 .projects not responsive
 .add hover overlay to project pics showing name and time
-.mediaquery project tec
+.mediaquery project technology
 .hover background black over nav item on the page
+.random facts should fade out with set interval (opacity)
 -->
 
 <!DOCTYPE html>
@@ -41,7 +41,7 @@
             <a href="#about">About</a>
           </li>
 
-        <li><img src="img/flame.png" width="100" /></li>
+        <li><img src="img/flame.png" id="rightFlame" width="100" /></li>
       </ul>
     </nav>
 
@@ -57,21 +57,23 @@
     </div>
 
     <!--ABOUT ME  -->
-    <h3 id="about">About Me</h3>
+    <h2 id="about">About Me</h2>
     <div class="about section">
       <img src="img/profile.JPG"
       width="200" height="300" alt="Femi Coker IMG" class="profile">
       <div>
         <h4>My name is Femi and I'm a Developer.</h4>
         <h5>Based in London.</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>After a few online courses it soon dawned on me that  I was ready to pursue a career within this ever changing and growing industry. The prospect of having an almost endless resource of tools and community members to help solve problems and create amazing projects was truly amazing. <br><br>
+Since my journey down the coding rabbit hole began, I have not looked back. I decided to take a leap from my finance and service careers into the development world. I enrolled in the Immersive web development course at General Assembly to help learn the fundamentals in coding to give me a stepping stone into my next career.<br><br>
+I love to learn and constantly looking on ways to improve my skills. I am currently looking for a job that would be able to help with this. I’m  very excited about the potential with where this new path could lead.</p>
       </div>
     </div>
     <hr />
 
     <!-- PROJECTS -->
     <div class="projectsContainer" id="projects">
-      <h1>Projects</h1>
+      <h2>Projects</h2>
       <!-- project 4  -->
       <div class="project">
         <img src="img/PnW/PnWIndex.png" class="imageInBox img1" />
@@ -80,10 +82,10 @@
 This web app is also capable of showing users suggested products based on the genre of their previous purchases. React.js was used to build the front-end. </p>
         </div>
         <div class="projectLinks">
-        <a href="#">
+        <a href="https://github.com/fcoker/wdi-project-four" target="_blank">
           <img src="img/git.png" alt="email logo" class="projectGit">
         </a>
-        <a href="#">
+        <a href="https://play-and-watch.herokuapp.com/" target="_blank">
           <img src="img/chain.png" alt="email logo" class="projectChain">
         </a>
         </div>
@@ -92,13 +94,13 @@ This web app is also capable of showing users suggested products based on the ge
         <div class="project">
             <img src="img/events/profile.png" class="imageInBox img1" />
           <div class="projectText">
-            <p>Eventz is a web app planner that allows users and their friends keep track of and also add new events to it. Users are able to see which shows, restaurants, plays etc, their friends are going to and also let them know in return whether or not they would be attending. This web app is mobile friendly and also uses a geolocation API to show event locations. AngularJs was the main framework used.</p>
+            <p>Eventz is a web app planner that allows users and their friends keep track of and also add new events to it. Users are able to see which shows, restaurants, plays etc, their friends are going to and also let them know in return whether or not they would be attending.<br><br> This web app is mobile friendly and also uses a geolocation API to show event locations. AngularJs was the main framework used.</p>
           </div>
           <div class="projectLinks">
-            <a href="#">
+            <a href="https://github.com/fcoker/wdi-project-three" target="_blank">
               <img src="img/git.png" alt="email logo" class="projectGit">
             </a>
-            <a href="#">
+            <a href="https://eventz-planner.herokuapp.com/#!/" target="_blank">
               <img src="img/chain.png" alt="email logo" class="projectChain">
             </a>
           </div>
@@ -111,10 +113,10 @@ This web app is also capable of showing users suggested products based on the ge
 It was my first project which involved using both front-end and back-end as well as fully RESTful routes.</p>
           </div>
           <div class="projectLinks">
-            <a href="#">
+            <a href="https://github.com/fcoker/wdi-project-two" target="_blank">
               <img src="img/git.png" alt="email logo" class="projectGit">
             </a>
-            <a href="#">
+            <a href="https://circuit-check.herokuapp.com/" target="_blank">
               <img src="img/chain.png" alt="email logo" class="projectChain">
             </a>
           </div>
@@ -126,10 +128,10 @@ It was my first project which involved using both front-end and back-end as well
             <p>This is an online version of the traditional grid game Battleships in which the user plays against computer. Each player has to guess what grid square their opponents ships are on and the objective of the game is to sink all of the opponents ships.<br> My version of battleships was made using basic HTML, CSS and JavaScript. Battleships was my pioneer project from General Assembly's Web development immersive course and was done individually.</p>
           </div>
           <div class="projectLinks">
-            <a href="#">
+            <a href="https://github.com/fcoker/wdi-project-one" target="_blank">
               <img src="img/git.png" alt="email logo" class="projectGit">
             </a>
-            <a href="#">
+            <a href="https://fcoker.github.io/wdi-project-one/" target="_blank">
               <img src="img/chain.png" alt="email logo" class="projectChain">
             </a>
           </div>
@@ -194,12 +196,12 @@ It was my first project which involved using both front-end and back-end as well
       <!--CONTACT  -->
       <div class="contactContainer" id="contact">
         <h1>Contact Me!</h1>
-        <p>For further information feel free to contact me</p>
+        <p>For further information feel free to contact me.</p>
         <div class="contactGrid">
-          <a href="#">
+          <a href="https://github.com/fcoker" target="_blank">
             <img src="img/git.png" alt="git logo" class="contactLogo">
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/femi-coker/" target="_blank">
             <img src="img/linkedin.png" alt="linkedin logo" class="contactLogo">
           </a>
           <a href="#">
@@ -215,7 +217,7 @@ It was my first project which involved using both front-end and back-end as well
       var randomText = document.getElementById('random')
       var index = 0
       var texts = [
-        'awesome', 'dope', 'killer', 'mad', 'pimp'
+        'Animal Lover', 'Nature Devotee', 'Dog Specialist ', 'RPG Gamer', 'Fantasy Book Worm', 'Motor and Combat Sport Enthusiast', 'Sci-Fi Fanatic'
       ]
       randomText.innerHTML=texts[0]
 
@@ -223,7 +225,7 @@ It was my first project which involved using both front-end and back-end as well
         index = (index > texts.length -2) ? 0 : index + 1
         randomText.innerHTML=texts[index]
 
-      }, 1000)
+      }, 2500)
     </script>
 
 </body>
