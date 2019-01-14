@@ -6,6 +6,7 @@
 .mediaquery project technology
 .hover background black over nav item on the page
 .random facts should fade out with set interval (opacity)
+.sort out project divs to stop moving about during screen change
 -->
 
 <!DOCTYPE html>
@@ -16,6 +17,8 @@
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/media-queries.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
 </head>
 <body>
 
@@ -62,11 +65,10 @@
       <img src="img/profile.JPG"
       width="200" height="300" alt="Femi Coker IMG" class="profile">
       <div>
-        <h4>My name is Femi and I'm a Developer.</h4>
+        <p><strong style="font-size: 30px;">My name is Femi and I'm a Developer.</strong></p>
         <h5>Based in London.</h5>
-        <p>After a few online courses it soon dawned on me that  I was ready to pursue a career within this ever changing and growing industry. The prospect of having an almost endless resource of tools and community members to help solve problems and create amazing projects was truly amazing. <br><br>
-Since my journey down the coding rabbit hole began, I have not looked back. I decided to take a leap from my finance and service careers into the development world. I enrolled in the Immersive web development course at General Assembly to help learn the fundamentals in coding to give me a stepping stone into my next career.<br><br>
-I love to learn and constantly looking on ways to improve my skills. I am currently looking for a job that would be able to help with this. I’m  very excited about the potential with where this new path could lead.</p>
+        <p>Since my journey down the coding rabbit hole began, I have not looked back. I decided to take a leap from my finance and service careers into the development world. I enrolled in the Immersive web development course at General Assembly to help learn the fundamentals in coding to give me a stepping stone into my next career.<br><br>After a few online courses it soon dawned on me that  I was ready to pursue a career within this ever changing and growing industry. The prospect of having an almost endless resource of tools and community members to help solve problems and create amazing projects was truly amazing. <br><br>
+I love to learn and am constantly looking on ways to improve my skills. I am currently looking for a job that would be able to help with this. I’m  very excited about the potential with where this new path could lead.</p>
       </div>
     </div>
     <hr />
@@ -217,7 +219,7 @@ It was my first project which involved using both front-end and back-end as well
       var randomText = document.getElementById('random')
       var index = 0
       var texts = [
-        'Animal Lover', 'Nature Devotee', 'Dog Specialist ', 'RPG Gamer', 'Fantasy Book Worm', 'Motor and Combat Sport Enthusiast', 'Sci-Fi Fanatic'
+        'Animal Lover', 'Nature Devotee', 'Dog Specialist ', 'RPG Gamer', 'Fantasy Book Worm', 'Motor and Combat Sport Enthusiast', 'Sci-Fi Fanatic', 'Aeroplane Nutter', 'Tech Tinkerer'
       ]
       randomText.innerHTML=texts[0]
 
