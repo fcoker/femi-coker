@@ -187,6 +187,36 @@ strong {
   left: 4em;
 }
 
+.overlay{
+  width: 55%;
+  height: 24em;
+  background-color: black;
+  position: absolute;
+  top: 2em;
+  left: 4em;
+  z-index: 3;
+  opacity: 0;
+  transition: .8s ease;
+
+}
+.imageContainer:hover .imageInBox {
+  opacity: 0.3;
+}
+.imageContainer:hover .overlay {
+  opacity: 0.8;
+}
+.overlay h3{
+  padding-top: 19%;
+  color: white;
+  font-size: 43px;
+}
+
+.overlay p{
+  font-size: 24px;
+  color: white;
+  position: relative;
+  left: 6%;
+}
 .project .projectText{
   width: 20em;
   position: absolute;
