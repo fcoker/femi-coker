@@ -1,0 +1,146 @@
+#projects {
+    height: auto;
+    position: relative;
+}
+
+#projects h2 {
+  margin-bottom: 100px;
+}
+
+#projects .project-styling .columns-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#projects .project-styling .columns-container .image-column {
+  height: auto;
+  display: inline-block;
+  flex: auto;
+  width: calc(306px + 20%);
+  position: relative;
+  z-index: 2;
+}
+
+#projects .project-styling .columns-container .image-column .overlay {
+  opacity: 0;
+  transition: all 1s;
+  visibility: hidden;
+  box-sizing: border-box;
+  padding: 7%;
+  width: 110%;
+  margin-top: 9%;
+  height: 89%;
+  background: #000000c7;
+  position: absolute;
+  bottom: 4%;
+  left: 0;
+  text-align: center;
+}
+
+#projects .project-styling .columns-container .image-column img:hover + div.overlay, #projects .columns-container .image-column img:hover + div.overlay {
+        visibility: visible;
+        opacity: 1;
+        transition: all 1s; }
+
+#projects .project-styling .columns-container .image-column div.overlay:hover {
+        visibility: visible;
+        opacity: 1;
+        transition: all 1s; }
+
+#projects .project-styling .columns-container .image-column .overlay h3 {
+  color: white;
+  letter-spacing: .3em;
+  font-size: calc(10px + 2vw);
+}
+
+#projects .project-styling .columns-container .text-column {
+  height: auto;
+  display: inline-block;
+  flex: auto;
+  width: calc(245px + 20%);
+  position: relative;
+  z-index: 1;
+}
+
+#projects .project-styling .project-links {
+  width: 100%;
+  height: 300px;
+  flex: auto;
+  margin-bottom: 200px;
+  margin-top: -225px;
+}
+
+#projects #projects .project-styling .project-links .links-container {
+  margin: auto;
+  width: 28%;
+  height: 100%;
+  background: #96a0a0;
+  box-shadow: 14px 12px 20px #97979788;
+  position: relative;
+}
+
+#projects .project-styling .columns-container .image-column img {
+  width: 110%;
+  box-shadow: 14px 12px 20px #97979788;
+}
+
+#projects .project-styling  .columns-container .text-column .text-panel {
+  box-sizing: border-box;
+  box-shadow: 14px 12px 20px #97979788;
+  background: #FFF;
+  padding: 3em 3em 3em 5em;
+  -webkit-transform: translateY(-50px);
+  -ms-transform: translateY(-50px);
+  -moz-transform: translateY(-50px);
+  transform: translateY(-50px);
+  min-height: 450px;
+  font-size: 1.2vw;
+}
+
+#projects .project-styling  .project-links .links-container {
+  margin: auto;
+  width: 28%;
+  height: 100%;
+  background: #A4BAB9;
+  box-shadow: 14px 12px 20px #97979788;
+  position: relative;
+}
+
+#projects .project-styling .columns-container .text-column .text-panel p, #projects  .columns-container .text-column .text-panel p {
+  line-height: 1.8em;
+  color: #555;
+}
+
+#projects .project-styling .project-links .links-container .github-icon {
+ width: calc(25px + .2vw);
+ position: absolute;
+ left: 60%;
+ bottom: 10%;
+}
+
+#projects .project-styling .project-links .links-container .link-icon {
+  width: calc(25px + .2vw);
+  position: absolute;
+  right: 60%;
+  bottom: 10%;
+}
+
+#projects .projectIMG{
+  width: 555px;
+  height: 400px;
+  position: relative;
+  top: 7%;
+}
+
+.overlay h3{
+  padding-top: 19%;
+  color: white;
+  font-size: 43px;
+}
+
+.overlay p{
+  font-size: 24px;
+  color: white;
+  position: relative;
+  left: 0%;
+}

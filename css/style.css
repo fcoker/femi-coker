@@ -23,6 +23,7 @@ main {
   margin: 10px auto;
   padding: 0;
   position: relative;
+  top: 5%;
 }
 
 nav {
@@ -32,6 +33,7 @@ nav {
   top: 30px;
   right: auto;
   z-index: 1000;
+
 }
 
 nav ul {
@@ -139,6 +141,9 @@ strong {
   justify-content: space-evenly;
   padding-bottom: 6em;
 }
+.about p{
+  line-height: 20px;
+}
 #about {
   padding-bottom: 3em;
 }
@@ -165,96 +170,7 @@ strong {
   width: 28%;
 }
 
-.project{
-  position: relative;
-  margin-bottom: 16em;
-  height: 400px;
-}
 
-.project p{
-  padding-left: 19%;
-  padding-top: 10px;
-  font-size: 18px;
-  padding-right: 1%;
-}
-.project .imageInBox{
-  width: 55%;
-  height: 24em;
-  box-shadow: 14px 12px 20px #97979788;
-  z-index: 3;
-  position: absolute;
-  top: 2em;
-  left: 4em;
-}
-
-.overlay{
-  width: 55%;
-  height: 24em;
-  background-color: black;
-  position: absolute;
-  top: 2em;
-  left: 4em;
-  z-index: 3;
-  opacity: 0;
-  transition: .8s ease;
-
-}
-.imageContainer:hover .imageInBox {
-  opacity: 0.3;
-}
-.imageContainer:hover .overlay {
-  opacity: 0.8;
-}
-.overlay h3{
-  padding-top: 19%;
-  color: white;
-  font-size: 43px;
-}
-
-.overlay p{
-  font-size: 24px;
-  color: white;
-  position: relative;
-  left: 6%;
-}
-.project .projectText{
-  width: 20em;
-  position: absolute;
-  top: 0em;
-  right: 7em;
-  z-index: 2;
-  background-color: #ffffff;
-  box-shadow: 14px 12px 20px #97979788;
-  padding: 1.5em;
-  line-height: 1.1em;
-}
-
-.project .projectLinks{
-  background-color: #96a0a0;
-  width: 10em;
-  height: 10em;
-  position: absolute;
-  top: 19em;
-  right: 20em;
-  z-index: 1;
-  box-shadow: 14px 12px 20px #97979788;
-}
-
-.projectGit{
-  position: relative;
-  width: 24%;
-  left: 13%;
-  top: 74%;
-  height: 22%;
-}
-
-.projectChain{
-  position: relative;
-  width: 24%;
-  left: 37%;
-  top: 74%;
-  height: 22%;
-}
 
 .methodology{
   background-color: white;
