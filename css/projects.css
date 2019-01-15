@@ -70,15 +70,6 @@
   margin-top: -225px;
 }
 
-#projects #projects .project-styling .project-links .links-container {
-  margin: auto;
-  width: 28%;
-  height: 100%;
-  background: #96a0a0;
-  box-shadow: 14px 12px 20px #97979788;
-  position: relative;
-}
-
 #projects .project-styling .columns-container .image-column img {
   width: 110%;
   box-shadow: 14px 12px 20px #97979788;
@@ -101,7 +92,7 @@
   margin: auto;
   width: 28%;
   height: 100%;
-  background: #A4BAB9;
+  background: #96a0a0;
   box-shadow: 14px 12px 20px #97979788;
   position: relative;
 }
