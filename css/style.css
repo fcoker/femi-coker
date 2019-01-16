@@ -27,13 +27,14 @@ main {
 }
 
 nav {
-  width: inherit;
   position: fixed;
-  text-align: center;
-  top: 30px;
-  right: auto;
   z-index: 1000;
-
+  text-align: center;
+  right: 30px;
+  top: 0px;
+  transform: rotate(270deg);
+  transform-origin: right;
+  width: 50%;
 }
 
 nav ul {
@@ -234,4 +235,8 @@ strong {
 .contactContainer p{
   padding-bottom: 9%;
   padding-top: 5%;
+}
+
+ol, ul {
+	list-style: none;
 }

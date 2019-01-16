@@ -1,13 +1,55 @@
-@media only screen
-and (min-device-width : 768px) {
+/* @media only screen and (min-width: 800px) {
   nav {
-    right: 30px;
-    top: 0px;
-    transform: rotate(270deg);
-    transform-origin: right;
-    width: 50%;
+    position: fixed;
+    z-index: 1000;
+    text-align: center;
+    top: 5%;
+    transform: none;
+    width: 80%;
+    left: 10%;
+  }
+
+  nav ul li {
+    font-size: 27px;
   }
   main{
-    top: 0%;
+    margin-top: 15%;
   }
-}
+
+  #projects .project-styling .columns-container .image-column img {
+    width: 91%;
+    left: 6%;
+
+  }
+
+  #projects .project-styling  .columns-container .text-column .text-panel p {
+    padding-top: 10%;
+    font-size: 22px;
+  }
+
+  #projects .project-styling .columns-container .image-column .overlay {
+    width: 91%;
+    height: 100%;
+    left: 6%;
+    bottom: -7%;
+  }
+  #about{
+    padding-bottom: 1em;
+  }
+  .about{
+    display: block;
+  }
+
+  .about div{
+    width: 100%;
+  }
+  .about p{
+    font-size: 23px;
+    line-height: 28px;
+    width: 100%;
+  }
+
+  .about .profile {
+    width: 36%;
+  }
+} */
