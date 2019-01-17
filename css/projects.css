@@ -1,4 +1,249 @@
-#projects {
+.projectContainer{
+  background-color: #96a0a0;
+  height: 36em;
+  box-shadow: 14px 20px 22px #00000088;
+  margin-bottom: 7em;
+  border-radius: 6px;
+}
+
+.projectContainer h4{
+  position: relative;
+  top: 1em;
+  color: white;
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+.projects h2{
+  padding-bottom: 0.5em;
+}
+/* .img1{
+  width: 44%;
+  position: relative;
+  left: 52%;
+  top:2em;
+} */
+.img1div{
+  overflow: hidden;
+  z-index: 1;
+  width: 42%;
+  position: relative;
+  left: 48%;
+  top: 6em;
+  overflow: hidden;
+  height: 15em;
+  box-shadow: 8px 8px 8px #626969;
+}
+
+.img2div{
+  top: -1em;
+  position: relative;
+  left: 56%;
+  overflow: hidden;
+  width: 38%;
+  bottom: 12em;
+  height: 13.7em;
+  box-shadow: 8px 8px 8px #626969;
+}
+
+.image3div{
+  width: 35%;
+  position: relative;
+  left: 62%;
+  bottom: 26em;
+  overflow: hidden;
+  height: 15.2em;
+  box-shadow: 8px 8px 8px #626969;
+}
+
+.img1div img{
+  width: 100%;
+  height: 100%;
+}
+
+.img2div img{
+  width: 100%;
+  height: 100%;
+}
+
+.image3div img{
+  width: 100%;
+  height: 100%;
+}
+
+.img1Overlay{
+  /* background: black; */
+  z-index: 5;
+  height: 100%;
+  position: relative;
+  height: 15.1em;
+  bottom: 15.2em;
+  left: 0%;
+  /* opacity: 0.7; */
+}
+
+.img2Overlay{
+  position: relative;
+  background-color: black;
+  height: 5em;
+  opacity: 0.7;
+  bottom: 14em;
+  height: 14.9em;
+}
+
+.img3Overlay{
+  background-color: black;
+  height: 15.3em;
+  position: relative;
+  bottom: 15.4em;
+  opacity: 0.7;
+  transition: all 1s;
+}
+
+.img1div:hover{
+  position: relative;
+  z-index: 4;
+  transition: all 1s;
+}
+
+.img2div:hover{
+  position: relative;
+  z-index: 4;
+  transition: all 1s;
+}
+
+.img2Overlay:hover{
+  opacity: 0;
+  transition: all 1s;
+}
+.img3Overlay:hover{
+  opacity: 0;
+  transition: all 1s;
+}
+
+.image3div:hover{
+  position: relative;
+  z-index: 4;
+  transition: all 1s;
+}
+
+/* .img2{
+  top: 5em;
+  position: right;
+  position: relative;
+  left: 15%;
+}
+
+.img3{
+  width: 81%;
+  position: relative;
+  left: 49%;
+  bottom: 4em;
+} */
+
+/* .projectImages{
+  position: relative;
+} */
+
+.projects p{
+  width: 43%;
+  position: relative;
+  font-size: 21px;
+  text-align: center;
+  line-height: 27px;
+  color: black;
+  background-color: #efefef;
+  margin-left: 2%;
+  bottom: 30em;
+  box-shadow: 14px 20px 22px #00000088;
+  border-radius: 5px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+}
+
+.projectGitImage{
+  position: relative;
+  bottom: 35em;
+  left: 42%;
+  width: 4%;
+}
+
+.projectGitLink{
+  position: relative;
+  bottom: 35em;
+  left: 52%;
+  width: 4%;
+}
+
+.eventGit{
+  position: relative;
+  bottom: 34em;
+  left: 52%;
+  width: 4%;
+}
+
+.eventLink{
+  position: relative;
+  bottom: 34em;
+  left: 42%;
+  width: 4%;
+}
+
+.circuitGit{
+  position: relative;
+  bottom: 32em;
+  left: 42%;
+  width: 4%;
+}
+
+.circuitLink{
+  position: relative;
+  bottom: 32em;
+  left: 52%;
+  width: 4%;
+}
+
+
+/* .projectLink{
+  position: relative;
+  bottom: 34em;
+  left: 51%;
+}
+
+.projectGit{
+  bottom: 34em;
+  left: 74%;
+  position: relative;
+} */
+/*
+.projectGitImage{
+  width: 4.5%;
+}
+
+.projectGitLink{
+  width: calc(25px + .2vw);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #projects {
     height: auto;
     position: relative;
 }
@@ -134,4 +379,4 @@
   color: white;
   position: relative;
   left: 0%;
-}
+} */
