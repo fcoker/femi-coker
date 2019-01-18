@@ -172,9 +172,67 @@ strong {
   width: 28%;
 }
 
+.softSkills{
+  background-color: #96a0a0;
+  width: 34%;
+  border-radius: 42px;
+  text-align: center;
+  position: relative;
+  left: 12%;
+  top: 0.9em;
+  box-shadow: 14px 20px 22px #00000088;
+}
 
+.softSkills h4{
+  color: white;
+  padding: 6% 5%;
+  font-weight: bolder;
+}
 
-.methodology{
+.skillCell{
+  padding: 8px 16px;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  margin-right: 8px;
+  display: inline-block;
+  margin-bottom: 16px;
+  margin-left: 6px;
+  margin-right: 5px;
+}
+
+.technology{
+  width: 25%;
+  background-color: white;
+  border-radius: 42px;
+  text-align: center;
+  position: relative;
+  left: 55%;
+  bottom: 37em;
+  box-shadow: 14px 20px 22px #00000088;
+}
+
+.technology h4{
+  padding: 9% 4%;
+  font-weight: bolder;
+  color: #1c2020;
+}
+
+.techCell{
+  padding: 8px 16px;
+  background-color: #96a0a0;
+  border-radius: 20px;
+  color: white;
+  margin-right: 8px;
+  display: inline-block;
+  margin-bottom: 14%;
+}
+
+.skillsContainer{
+  height: 50em;
+}
+
+/* .methodology{
   background-color: white;
   box-shadow: 14px 12px 20px #97979788;
   z-index: 2;
@@ -215,7 +273,7 @@ strong {
 
 .skillsContainer h2{
   padding-bottom: 1em;
-}
+} */
 
 
 .contactContainer{
