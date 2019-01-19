@@ -128,9 +128,6 @@
     opacity: 0.7;
 }
 
-
-
-
 .projects p{
   width: 43%;
   position: relative;
@@ -147,44 +144,26 @@
   padding-bottom: 15px;
 }
 
-.projectGitImage{
-  position: relative;
-  bottom: 35em;
-  left: 42%;
-  width: 4%;
+.icon-right {
+  bottom: 20px;
+  font-size: 2.4em;
+  position: absolute;
+  color: #efefef;
+  right: 120px;
+  left: 0;
+  text-align: center;
 }
 
-.projectGitLink{
-  position: relative;
-  bottom: 35em;
-  left: 52%;
-  width: 4%;
+.icon-left {
+  bottom: 20px;
+  font-size: 2.4em;
+  position: absolute;
+  color: #efefef;
+  right: 0;
+  left: 120px;
+  text-align: center;
 }
 
-.eventGit{
+.make-relative {
   position: relative;
-  bottom: 34em;
-  left: 52%;
-  width: 4%;
-}
-
-.eventLink{
-  position: relative;
-  bottom: 34em;
-  left: 42%;
-  width: 4%;
-}
-
-.circuitGit{
-  position: relative;
-  bottom: 32em;
-  left: 42%;
-  width: 4%;
-}
-
-.circuitLink{
-  position: relative;
-  bottom: 32em;
-  left: 52%;
-  width: 4%;
 }
