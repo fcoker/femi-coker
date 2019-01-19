@@ -26,7 +26,7 @@ main {
   top: 5%;
 }
 
-nav {
+nav{
   position: fixed;
   z-index: 1000;
   text-align: center;
@@ -177,9 +177,9 @@ strong {
   width: 34%;
   border-radius: 42px;
   text-align: center;
-  position: relative;
+  /* position: relative;
   left: 12%;
-  top: 0.9em;
+  top: 0.9em; */
   box-shadow: 14px 20px 22px #00000088;
 }
 
@@ -206,9 +206,9 @@ strong {
   background-color: white;
   border-radius: 42px;
   text-align: center;
-  position: relative;
+  /* position: relative;
   left: 55%;
-  bottom: 37em;
+  bottom: 37em; */
   box-shadow: 14px 20px 22px #00000088;
 }
 
@@ -229,52 +229,12 @@ strong {
 }
 
 .skillsContainer{
-  height: 50em;
-}
-
-/* .methodology{
-  background-color: white;
-  box-shadow: 14px 12px 20px #97979788;
-  z-index: 2;
-  padding: 2em;
-  line-height: 1.5;
-  background-color: #96a0a0;
-  color: white;
-}
-
-.methodology li{
-  font-size: 18px;
-}
-
-.methodology h4{
-  font-weight: 900;
-}
-
-.technologies{
-  background-color: white;
-  height: 100%;
-  position: relative;
-  right: 1%;
-  top: 2em;
-  z-index: 1;
-  box-shadow: 14px 12px 20px #97979788;
-  line-height: 1.5;
-  padding: 1em;
-}
-
-.technologies li{
-  font-size: 18px;
-}
-.skillsContentWrapper{
   display: flex;
-  text-align: center;
-  justify-content: center;
+  height: initial;
+  align-items: center;
+  padding-top: 5%;
+  justify-content: space-evenly;
 }
-
-.skillsContainer h2{
-  padding-bottom: 1em;
-} */
-
 
 .contactContainer{
   text-align: center;
