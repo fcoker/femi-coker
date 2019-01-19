@@ -11,36 +11,35 @@
 <head>
   <meta charset="utf-8">
   <title>Femi</title>
-  <link rel="stylesheet" href="./css/reset.css">
+  <link rel='icon' href="img/phoneix.png">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/projects.css">
-  <link rel="stylesheet" href="./css/media-queries.css">
+  <link rel="stylesheet" href="./css/mediaQueryProject.css">
   <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
 </head>
 <body>
-
   <main>
     <nav>
       <ul>
         <li><img src="img/flame.png" width="100" /></li>
 
-          <li class="NavlistItems">
-            <a href="#contact">Contact</a>
-          </li>
+        <li class="NavlistItems">
+          <a href="#contact">Contact</a>
+        </li>
 
-          <li class="NavlistItems">
-            <a href="#skills">Skills</a>
-          </li>
+        <li class="NavlistItems">
+          <a href="#skills">Skills</a>
+        </li>
 
-          <li class="NavlistItems">
-            <a href="#projects">Projects</a>
-          </li>
+        <li class="NavlistItems">
+          <a href="#projects">Projects</a>
+        </li>
 
 
-          <li class="NavlistItems">
-            <a href="#about">About</a>
-          </li>
+        <li class="NavlistItems">
+          <a href="#about">About</a>
+        </li>
 
         <li><img src="img/flame.png" id="rightFlame" width="100" /></li>
       </ul>
@@ -69,258 +68,233 @@
     </div>
     <hr />
 
-    <style>
-
-    </style>
-
     <!-- PROJECTS -->
-      <!-- Project 4  -->
-      <div id="projects" class="projects">
-        <h2>Projects</h2>
-        <div class="projectContainer">
-          <h4>Play & Watch</h4>
-          <div class="projectImages">
-            <div class="img1div">
-              <img src="img/PnW/PnWIndex.png" alt="" class="img1">
-              <div class="img1Overlay"></div>
+    <!-- Project 4  -->
+    <div id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="projectContainer">
+        <h4>Play & Watch</h4>
+        <div class="projectImages">
+          <div class="img1div">
+            <img src="img/PnW/PnWIndex.png" alt="">
+            <div class="img1Overlay" id="pwOverlay"></div>
           </div>
-            <div class="img2div">
-            <img src="img/PnW/PnWBasket.png" alt="" class="img2">
+          <div class="img2div" onmouseover="pwOn()" onmouseout="pwOff()">
+            <img src="img/PnW/PnWBasket.png" alt="">
             <div class="img2Overlay"></div>
           </div>
-            <div class="image3div">
-            <img src="img/PnW/PnWShow.png" alt="" class="img3">
+          <div class="img3div" onmouseover="pwOn()" onmouseout="pwOff()">
+            <img src="img/PnW/PnWShow.png" alt="">
             <div class="img3Overlay"></div>
           </div>
-          </div>
-          <p>This app is an e-commerce website that sells both video games and movies. Play & Watch is a full stack application which has all the basic functions of an e-commerce website such as placing orders, keeping track of orders through purchase history, product basket e.t.c. <br><br>This web app is also capable of showing users suggested products based on the genre of their previous purchases. React.js was used to build the front-end. </p>
-          <a href="https://github.com/fcoker/wdi-project-four" class="projectGit" target="_blank">
-            <img src="img/github-icon.png" class="projectGitImage" alt="">
-          </a>
-          <a href="https://play-and-watch.herokuapp.com/" class="projectLink" target="_blank">
-            <img src="img/link-icon.png" alt="" class="projectGitLink" >
-          </a>
         </div>
-
-        <!-- Project 3  -->
-        <div class="projectContainer">
-          <h4>Events</h4>
-          <div class="projectImages">
-            <div class="img1div">
-              <img src="img/events/eventsHome.png" alt="" class="img1">
-              <div class="img1Overlay"></div>
-          </div>
-            <div class="img2div">
-            <img src="img/events/eventsMobile.png" alt="" class="img2">
-            <div class="img2Overlay"></div>
-          </div>
-            <div class="image3div">
-            <img src="img/events/eventsSHow.png" alt="" class="img3">
-            <div class="img3Overlay"></div>
-          </div>
-          </div>
-          <p>Eventz is a web app planner that allows users and their friends keep track of and also add new events to it. Users are able to see which shows, restaurants, plays etc, their friends are going to and also let them know in return whether or not they would be attending.<br><br> This web app is mobile friendly and also uses a geolocation API to show event locations. AngularJs was the main framework used.</p>
-          <a href="https://github.com/fcoker/wdi-project-three" class="projectGit" target="_blank">
-            <img src="img/github-icon.png" class="projectGitImage eventLink" alt="">
-          </a>
-          <a href="https://eventz-planner.herokuapp.com/#!/" class="projectLink" target="_blank">
-            <img src="img/link-icon.png" alt="" class="projectGitLink eventGit" >
-          </a>
-        </div>
-
-        <!-- Project 2  -->
-        <div class="projectContainer">
-          <h4>Circuit Check</h4>
-          <div class="projectImages">
-            <div class="img1div">
-              <img src="img/circuits/circuitsHome.png" alt="" class="img1">
-              <div class="img1Overlay"></div>
-          </div>
-            <div class="img2div">
-            <img src="img/circuits/circuitsShow.png" alt="" class="img2">
-            <div class="img2Overlay"></div>
-          </div>
-            <div class="image3div">
-            <img src="img/circuits/circuitsIndex.png" alt="" class="img3">
-            <div class="img3Overlay"></div>
-          </div>
-          </div>
-          <p>Circuit Check is a web app that allows users to view details as well as comment reviews on selected U.K race tracks across the country. The app uses NodeJs, Express and MongoDB to store data such as Users and Circuits.<br><br> The web app has user authentication for registration and login. Only authorised users are allowed to edit, delete or add new circuits.</p>
-          <a href="https://circuit-check.herokuapp.com/" class="projectGit" target="_blank">
-            <img src="img/github-icon.png" class="projectGitImage circuitGit" alt="">
-          </a>
-          <a href="https://circuit-check.herokuapp.com/" class="projectLink" target="_blank">
-            <img src="img/link-icon.png" alt="" class="projectGitLink circuitLink" >
-          </a>
-        </div>
-
-        <!-- Project 1  -->
-        <div class="projectContainer">
-          <h4>Battleships</h4>
-          <div class="projectImages">
-            <div class="img1div">
-              <img src="img/battleship/Screenshot 2019-01-04 at 16.19.52.png" alt="" class="img1">
-              <div class="img1Overlay"></div>
-          </div>
-            <div class="img2div">
-            <img src="img/battleship/Screenshot 2019-01-04 at 16.21.15.png" alt="" class="img2">
-            <div class="img2Overlay"></div>
-          </div>
-            <div class="image3div">
-            <img src="img/battleship/Screenshot 2019-01-05 at 15.13.06.png" alt="" class="img3">
-            <div class="img3Overlay"></div>
-          </div>
-          </div>
-          <p>This is an online version of the traditional grid game Battleships in which the user plays against computer. Each player has to guess what grid square their opponents ships are on and the objective of the game is to sink all of the opponents ships.<br> My version of battleships was made using basic HTML, CSS and JavaScript. Battleships was my pioneer project from General Assembly's Web development immersive course and was done individually.</p>
-          <a href="https://github.com/fcoker/wdi-project-one" class="projectGit" target="_blank">
-            <img src="img/github-icon.png" class="projectGitImage" alt="">
-          </a>
-          <a href="img/link-icon.png" class="projectLink" target="_blank">
-            <img src="img/link-icon.png" alt="" class="projectGitLink" >
-          </a>
-        </div>
+        <p>This app is an e-commerce website that sells both video games and movies. Play & Watch is a full stack application which has all the basic functions of an e-commerce website such as placing orders, keeping track of orders through purchase history, product basket e.t.c. <br><br>This web app is also capable of showing users suggested products based on the genre of their previous purchases. React.js was used to build the front-end. </p>
+        <a href="https://github.com/fcoker/wdi-project-four" class="projectGit" target="_blank">
+          <img src="img/github-icon.png" class="projectGitImage" alt="">
+        </a>
+        <a href="https://play-and-watch.herokuapp.com/" class="projectLink" target="_blank">
+          <img src="img/link-icon.png" alt="" class="projectGitLink" >
+        </a>
       </div>
+
+      <!-- Project 3  -->
+      <div class="projectContainer">
+        <h4>Events</h4>
+        <div class="projectImages">
+          <div class="img1div">
+            <img src="img/events/eventsHome.png" alt="">
+            <div class="img1Overlay" id="eventsOverlay"></div>
+          </div>
+          <div class="img2div" onmouseover="eventsOn()" onmouseout="eventsOff()">
+            <img src="img/events/profileEvents.png" alt="">
+            <div class="img2Overlay"></div>
+          </div>
+          <div class="img3div" onmouseover="eventsOn()" onmouseout="eventsOff()">
+            <img src="img/events/showEvents.png" alt="">
+            <div class="img3Overlay"></div>
+          </div>
+        </div>
+        <p>Eventz is a web app planner that allows users and their friends keep track of and also add new events to it. Users are able to see which shows, restaurants, plays etc, their friends are going to and also let them know in return whether or not they would be attending.<br><br> This web app is mobile friendly and also uses a geolocation API to show event locations. AngularJs was the main framework used.</p>
+        <a href="https://github.com/fcoker/wdi-project-three" class="projectGit" target="_blank">
+          <img src="img/github-icon.png" class="projectGitImage eventLink" alt="">
+        </a>
+        <a href="https://eventz-planner.herokuapp.com/#!/" class="projectLink" target="_blank">
+          <img src="img/link-icon.png" alt="" class="projectGitLink eventGit" >
+        </a>
+      </div>
+
+      <!-- Project 2  -->
+      <div class="projectContainer">
+        <h4>Circuit Check</h4>
+        <div class="projectImages">
+          <div class="img1div">
+            <img src="img/circuits/circuitsHome.png" alt="">
+            <div class="img1Overlay" id="circuitOverlay"></div>
+          </div>
+          <div class="img2div" onmouseover="circuitsOn()" onmouseout="circuitsOff()">
+            <img src="img/circuits/flyingLap.png" alt="">
+            <div class="img2Overlay"></div>
+          </div>
+          <div class="img3div" onmouseover="circuitsOn()" onmouseout="circuitsOff()">
+            <img src="img/circuits/registerForm.png" alt="">
+            <div class="img3Overlay"></div>
+          </div>
+        </div>
+        <p>Circuit Check is a web app that allows users to view details as well as comment reviews on selected U.K race tracks across the country. The app uses NodeJs, Express and MongoDB to store data such as Users and Circuits.<br><br> The web app has user authentication for registration and login. Only authorised users are allowed to edit, delete or add new circuits.</p>
+        <a href="https://circuit-check.herokuapp.com/" class="projectGit" target="_blank">
+          <img src="img/github-icon.png" class="projectGitImage circuitGit" alt="">
+        </a>
+        <a href="https://circuit-check.herokuapp.com/" class="projectLink" target="_blank">
+          <img src="img/link-icon.png" alt="" class="projectGitLink circuitLink" >
+        </a>
+      </div>
+
+      <!-- Project 1  -->
+      <div class="projectContainer">
+        <h4>Battleships</h4>
+        <div class="projectImages">
+          <div class="img1div">
+            <img src="img/battleship/Screenshot 2019-01-04 at 16.19.52.png" alt="">
+            <div class="img1Overlay" id="battleshipOverlay"></div>
+          </div>
+          <div class="img2div" onmouseover="battleOn()" onmouseout="battleOff()">
+            <img src="img/battleship/Screenshot 2019-01-04 at 16.21.15.png" alt="">
+            <div class="img2Overlay"></div>
+          </div>
+          <div class="img3div" onmouseover="battleOn()" onmouseout="battleOff()">
+            <img src="img/battleship/Screenshot 2019-01-05 at 15.13.06.png" alt="">
+            <div class="img3Overlay"></div>
+          </div>
+        </div>
+        <p>This is an online version of the traditional grid game Battleships in which the user plays against computer. Each player has to guess what grid square their opponents ships are on and the objective of the game is to sink all of the opponents ships.<br><br> My version of battleships was made using basic HTML, CSS and JavaScript. Battleships was my pioneer project from General Assembly's Web development immersive course and was done individually.</p>
+        <a href="https://github.com/fcoker/wdi-project-one" class="projectGit" target="_blank">
+          <img src="img/github-icon.png" class="projectGitImage" alt="">
+        </a>
+        <a href="https://fcoker.github.io/wdi-project-one/" class="projectLink" target="_blank">
+          <img src="img/link-icon.png" alt="" class="projectGitLink" >
+        </a>
+      </div>
+    </div>
     <hr>
 
 
-      <!--SKILLS  -->
+    <!--SKILLS  -->
 
-      <h3 id="skills">SKILLS</h3>
-      <div class="skillsContainer">
-        <div class="softSkills">
-          <div class="methodology">
-            <h4>Methodology</h4>
-            <div class="skillCell">RESTful</div>
-            <div class="skillCell">Responsive Design</div>
-            <div class="skillCell">CRUD Methods</div>
-            <div class="skillCell">Trello</div>
-          </div>
-          <h4>Tools</h4>
-          <div class="">
-            <div class="skillCell">Slack</div>
-            <div class="skillCell">Github</div>
-            <div class="skillCell">Git</div>
-            <div class="skillCell">Insomnia</div>
-            <div class="skillCell">Google Docs</div>
-          </div>
-          <h4>Soft Skills</h4>
-          <div class="">
-            <div class="skillCell">Attention to Detail</div>
-            <div class="skillCell">Adaptive</div>
-            <div class="skillCell">Communication Skills</div>
-            <div class="skillCell">Relationship management</div>
-            <div class="skillCell">Logical Thinking</div>
-            <div class="skillCell">Problem Solving</div>
-            <div class="skillCell">Organisation</div>
-            <div class="skillCell">Team Work</div>
-          </div>
+    <h3 id="skills">SKILLS</h3>
+    <div class="skillsContainer">
+      <div class="softSkills">
+        <div class="methodology">
+          <h4>Methodology</h4>
+          <div class="skillCell">RESTful</div>
+          <div class="skillCell">Responsive Design</div>
+          <div class="skillCell">CRUD Methods</div>
+          <div class="skillCell">Trello</div>
         </div>
-
-        <div class="technology">
-          <h4>Technologies</h4>
-          <div class="">
-            <div class="techCell">HTML5</div>
-            <div class="techCell">JavaScript</div>
-            <div class="techCell">CSS</div>
-            <div class="techCell">React.js</div>
-            <div class="techCell">AngularJs</div>
-            <div class="techCell">Bulma</div>
-            <div class="techCell">EJS</div>
-            <div class="techCell">MongoDB</div>
-            <div class="techCell">Node.js</div>
-            <div class="techCell">Express.js</div>
-            <div class="techCell">Yarn</div>
-          </div>
+        <h4>Tools</h4>
+        <div class="">
+          <div class="skillCell">Slack</div>
+          <div class="skillCell">Github</div>
+          <div class="skillCell">Git</div>
+          <div class="skillCell">Insomnia</div>
+          <div class="skillCell">Google Docs</div>
+        </div>
+        <h4>Soft Skills</h4>
+        <div class="">
+          <div class="skillCell">Attention to Detail</div>
+          <div class="skillCell">Adaptive</div>
+          <div class="skillCell">Communication Skills</div>
+          <div class="skillCell">Relationship management</div>
+          <div class="skillCell">Logical Thinking</div>
+          <div class="skillCell">Problem Solving</div>
+          <div class="skillCell">Organisation</div>
+          <div class="skillCell">Team Work</div>
         </div>
       </div>
-      <!-- <div class="skillsContainer" id="skills">
-        <h2 class="skills">SKILLS</h2>
-        <div class="skillsContentWrapper">
-          <div class="methodology">
-            <h4>Methodology</h4>
-            <ul>
-              <li>RESTful</li>
-              <li>Responsive design</li>
-              <li>CRUD Methods</li>
-              <li>Trello</li>
-            </ul>
-            <br>
-            <h4>Tools</h4>
-            <ul>
-              <li>Slack</li>
-              <li>Github</li>
-              <li>Git</li>
-              <li>Insomnia</li>
-              <li>Google Docs</li>
-            </ul>
-            <br>
-            <h4>Soft Skills</h4>
-            <ul>
-              <li>Attention to detail</li>
-              <li>Adaptive</li>
-              <li>Communication Skills</li>
-              <li>Relationship management</li>
-              <li>Logical Thinking</li>
-              <li>Problem Solving</li>
-              <li>Organisation</li>
-              <li>Team Work</li>
-            </ul>
 
-          </div>
-          <div class="technologies">
-            <h4>Technologies</h4>
-            <ul>
-              <li>HTML5</li>
-              <li>JavaScript</li>
-              <li>CSS</li>
-              <li>React.js</li>
-              <li>AngularJs</li>
-              <li>Bulma</li>
-              <li>EJS</li>
-              <li>MongoDB</li>
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>Yarn</li>
-              <li>CSS</li>
-            </ul>
-          </div>
+      <div class="technology">
+        <h4>Technologies</h4>
+        <div class="">
+          <div class="techCell">HTML5</div>
+          <div class="techCell">JavaScript</div>
+          <div class="techCell">CSS</div>
+          <div class="techCell">React.js</div>
+          <div class="techCell">AngularJs</div>
+          <div class="techCell">Bulma</div>
+          <div class="techCell">EJS</div>
+          <div class="techCell">MongoDB</div>
+          <div class="techCell">Node.js</div>
+          <div class="techCell">Express.js</div>
+          <div class="techCell">Yarn</div>
         </div>
-      </div> -->
-      <hr />
-      <!--CONTACT  -->
-      <div class="contactContainer" id="contact">
-        <h1>Contact Me.</h1>
-        <p>For further information feel free to contact me.</p>
-        <div class="contactGrid">
-          <a href="https://github.com/fcoker" target="_blank">
-            <img src="img/git.png" alt="git logo" class="contactLogo">
-          </a>
-          <a href="https://www.linkedin.com/in/femi-coker/" target="_blank">
-            <img src="img/linkedin.png" alt="linkedin logo" class="contactLogo">
-          </a>
-          <a href="#">
-            <img src="img/email.png" alt="email logo" class="contactLogo">
-          </a>
-
-        </div>
+      </div>
+    </div>
+    <hr />
+    <!--CONTACT  -->
+    <div class="contactContainer" id="contact">
+      <h1>Contact Me.</h1>
+      <p>For further information feel free to contact me.</p>
+      <div class="contactGrid">
+        <a href="https://github.com/fcoker" target="_blank">
+          <img src="img/github.png" alt="git logo" class="contactLogo">
+        </a>
+        <a href="https://www.linkedin.com/in/femi-coker/" target="_blank">
+          <img src="img/linkedin.png" alt="linkedin logo" class="contactLogo">
+        </a>
+        <a href="#">
+          <img src="img/email.png" alt="email logo" class="contactLogo">
+        </a>
 
       </div>
-    </main>
 
-    <script>
-      let randomText = document.getElementById('random');
-      let index = 0;
-      let texts = [
-        'Animal Lover', 'Nature Devotee', 'Dog Specialist ', 'RPG Gamer', 'Fantasy Book Worm', 'Motor and Combat Sport Enthusiast', 'Sci-Fi Fanatic', 'Aeroplane Nutter', 'Tech Tinkerer'
-      ];
-      randomText.innerHTML=texts[0];
+    </div>
+  </main>
 
-      setInterval(() => {
-        index = index > texts.length -2 ? 0 : index + 1;
-        randomText.innerHTML=texts[index];
+  <script>
+    let randomText = document.getElementById('random');
+    let index = 0;
+    let texts = [
+    'Animal Lover', 'Nature Devotee', 'Dog Specialist ', 'RPG Gamer', 'Fantasy Book Worm', 'Motor and Combat Sport Enthusiast', 'Sci-Fi Fanatic', 'Aeroplane Nutter', 'Tech Tinkerer'
+    ];
+    randomText.innerHTML=texts[0];
 
-      }, 2500);
-    </script>
+    setInterval(() => {
+      index = index > texts.length -2 ? 0 : index + 1;
+      randomText.innerHTML=texts[index];
 
+    }, 2500);
+
+    // const battleships = document.getElementsByClassName("battleshipHover");
+    // battleships.addEventListener("hover", function(){
+    //   document.getElementById('battleshipOverlay').style.opacity = 0.7;
+    //  });
+
+    function battleOn() {
+      document.getElementById('battleshipOverlay').style.opacity = 0.7;
+    }
+    function battleOff() {
+      document.getElementById('battleshipOverlay').style.opacity = 0;
+    }
+
+    function circuitsOn() {
+      document.getElementById('circuitOverlay').style.opacity = 0.7;
+    }
+    function circuitsOff() {
+      document.getElementById('circuitOverlay').style.opacity = 0;
+    }
+
+    function eventsOn() {
+      document.getElementById('eventsOverlay').style.opacity = 0.7;
+    }
+    function eventsOff() {
+      document.getElementById('eventsOverlay').style.opacity = 0;
+    }
+
+    function pwOn() {
+      document.getElementById('pwOverlay').style.opacity = 0.7;
+    }
+    function pwOff() {
+      document.getElementById('pwOverlay').style.opacity = 0;
+    }
+  </script>
 </body>
 </html>
