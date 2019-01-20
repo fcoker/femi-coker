@@ -50,6 +50,7 @@ nav{
   background-color: black;
   right: 0;
   opacity: 0.6;
+  height: 4em;
 }
 
 nav ul {
@@ -64,32 +65,41 @@ nav ul li {
   display: table-cell;
 }
 
-nav ul li a {
+nav ul a {
   text-decoration: none;
   color: white;
 }
 
-.NavlistItems:hover{
+/* .NavlistItems:hover{
   background-color: white;
   opacity: 43.3;
   padding-bottom: 0.5em;
   color: black;
-}
+} */
 
 nav ul li a:hover {
-  color: black;
+  /* color: black;
   opacity: 43.3;
   padding-bottom: 0.5em;
+  width: 100%; */
+
+  color: black;
   width: 100%;
+  padding-top: 1.23em;
+  padding-bottom: 1.1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  background-color: white;
 }
 
 #rightFlame{
   position: relative;
   top: 4px;
+    transform: rotate(180deg);
 }
-nav ul li:last-child {
+/* nav ul li:last-child {
   transform: rotate(180deg);
-}
+} */
 
 .NavlistItems{
   position: relative;
@@ -178,6 +188,7 @@ strong {
 }
 #about {
   padding-bottom: 0em;
+  margin-bottom: -2em;
 }
 
 .about h5{
@@ -197,10 +208,6 @@ strong {
   flex-direction: column;
   margin-top: 4em;
   width: 45%;
-}
-
-.about .profile {
-  width: 28%;
 }
 
 .softSkills{
