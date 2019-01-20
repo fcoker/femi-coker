@@ -84,13 +84,13 @@
           <div class="projectImages">
             <div class="img1div">
               <img src="img/PnW/PnWIndex.png" alt="">
-              <div class="img1Overlay" id="pwOverlay"></div>
+              <div class="img1Overlay" onclick="overlayOff()" id="pwOverlay"></div>
             </div>
-            <div class="img2div" onmouseover="pwOn()" onmouseout="pwOff()">
+            <div class="img2div pnw" onmouseover="pwOn()" onmouseout="pwOff()">
               <img src="img/PnW/PnWBasket.png" alt="">
               <div class="img2Overlay"></div>
             </div>
-            <div class="img3div" onmouseover="pwOn()" onmouseout="pwOff()">
+            <div class="img3div pnw" onmouseover="pwOn()" onmouseout="pwOff()">
               <img src="img/PnW/PnWShow.png" alt="">
               <div class="img3Overlay"></div>
             </div>
@@ -110,13 +110,13 @@
           <div class="projectImages">
             <div class="img1div">
               <img src="img/events/eventsHome.png" alt="">
-              <div class="img1Overlay" id="eventsOverlay"></div>
+              <div class="img1Overlay" onclick="overlayOff()" id="eventsOverlay"></div>
             </div>
-            <div class="img2div" onmouseover="eventsOn()" onmouseout="eventsOff()">
+            <div class="img2div events" onmouseover="eventsOn()" onmouseout="eventsOff()">
               <img src="img/events/profileEvents.png" alt="">
               <div class="img2Overlay"></div>
             </div>
-            <div class="img3div" onmouseover="eventsOn()" onmouseout="eventsOff()">
+            <div class="img3div events" onmouseover="eventsOn()" onmouseout="eventsOff()">
               <img src="img/events/showEvents.png" alt="">
               <div class="img3Overlay"></div>
             </div>
@@ -138,13 +138,13 @@
           <div class="projectImages">
             <div class="img1div">
               <img src="img/circuits/circuitsHome.png" alt="">
-              <div class="img1Overlay" id="circuitOverlay"></div>
+              <div class="img1Overlay" onclick="overlayOff()" id="circuitOverlay"></div>
             </div>
-            <div class="img2div" onmouseover="circuitsOn()" onmouseout="circuitsOff()">
+            <div class="img2div circuits" onmouseover="circuitsOn()" onmouseout="circuitsOff()">
               <img src="img/circuits/flyingLap.png" alt="">
               <div class="img2Overlay"></div>
             </div>
-            <div class="img3div" onmouseover="circuitsOn()" onmouseout="circuitsOff()">
+            <div class="img3div circuits" onmouseover="circuitsOn()" onmouseout="circuitsOff()">
               <img src="img/circuits/registerForm.png" alt="">
               <div class="img3Overlay"></div>
             </div>
@@ -164,13 +164,13 @@
           <div class="projectImages">
             <div class="img1div">
               <img src="img/battleship/Screenshot 2019-01-04 at 16.19.52.png" alt="">
-              <div class="img1Overlay" id="battleshipOverlay"></div>
+              <div class="img1Overlay" onclick="overlayOff()" id="battleshipOverlay"></div>
             </div>
-            <div class="img2div" onmouseover="battleOn()" onmouseout="battleOff()">
+            <div class="img2div battleships" onmouseover="battleOn()" onmouseout="battleOff()">
               <img src="img/battleship/Screenshot 2019-01-04 at 16.21.15.png" alt="">
               <div class="img2Overlay"></div>
             </div>
-            <div class="img3div" onmouseover="battleOn()" onmouseout="battleOff()">
+            <div class="img3div battleships" onmouseover="battleOn()" onmouseout="battleOff()">
               <img src="img/battleship/Screenshot 2019-01-05 at 15.13.06.png" alt="">
               <div class="img3Overlay"></div>
             </div>
@@ -274,11 +274,6 @@
 
     }, 2500);
 
-    // const battleships = document.getElementsByClassName("battleshipHover");
-    // battleships.addEventListener("hover", function(){
-    //   document.getElementById('battleshipOverlay').style.opacity = 0.7;
-    //  });
-
     function battleOn() {
       document.getElementById('battleshipOverlay').style.opacity = 0.7;
     }
@@ -290,6 +285,7 @@
       document.getElementById('circuitOverlay').style.opacity = 0.7;
     }
     function circuitsOff() {
+
       document.getElementById('circuitOverlay').style.opacity = 0;
     }
 
@@ -305,6 +301,10 @@
     }
     function pwOff() {
       document.getElementById('pwOverlay').style.opacity = 0;
+    }
+
+    function overlayOff(){
+      document.getElementById('circuitOverlay').style.opacity = 0;
     }
   </script>
 </body>
