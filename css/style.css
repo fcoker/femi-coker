@@ -19,7 +19,7 @@ html h1, h2, h3, h4  {
 }
 
 main {
-  width: 80%;
+  width: 100%;
   margin: 10px auto;
   padding: 0;
   position: relative;
@@ -27,14 +27,29 @@ main {
 }
 
 nav{
-  position: fixed;
+  /* position: fixed;
   z-index: 1000;
   text-align: center;
   right: 30px;
   top: 0px;
   transform: rotate(270deg);
   transform-origin: right;
-  width: 50%;
+  width: 48%;
+  background-color: black;
+  opacity: 0.6; */
+
+  position: fixed;
+  z-index: 1000;
+  text-align: center;
+  top: 0px;
+  transform-origin: right;
+  width: 100%;
+  padding-top: 1.5em;
+  transform: none;
+  padding-bottom: 1em;
+  background-color: black;
+  right: 0;
+  opacity: 0.6;
 }
 
 nav ul {
@@ -51,8 +66,23 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
+  color: white;
+}
+
+.NavlistItems:hover{
+  background-color: white;
+  opacity: 43.3;
+  padding-bottom: 0.5em;
   color: black;
 }
+
+nav ul li a:hover {
+  color: black;
+  opacity: 43.3;
+  padding-bottom: 0.5em;
+  width: 100%;
+}
+
 #rightFlame{
   position: relative;
   top: 4px;
@@ -118,6 +148,7 @@ strong {
 .section {
   text-align: center;
   padding-bottom: 2em;
+  margin-top: 5em;
 }
 
 .welcome hr {
@@ -177,9 +208,6 @@ strong {
   width: 34%;
   border-radius: 42px;
   text-align: center;
-  /* position: relative;
-  left: 12%;
-  top: 0.9em; */
   box-shadow: 14px 20px 22px #00000088;
 }
 
@@ -206,9 +234,6 @@ strong {
   background-color: white;
   border-radius: 42px;
   text-align: center;
-  /* position: relative;
-  left: 55%;
-  bottom: 37em; */
   box-shadow: 14px 20px 22px #00000088;
 }
 
@@ -258,4 +283,9 @@ strong {
 
 ol, ul {
 	list-style: none;
+}
+
+.mainContainer{
+  width: 80%;
+  margin: 0 auto;
 }

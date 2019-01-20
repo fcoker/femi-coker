@@ -24,7 +24,7 @@
   <main>
     <nav>
       <ul>
-        <li><img src="img/flame.png" width="100" /></li>
+        <li><img src="img/flameTransparentWhite.png" width="100" /></li>
 
         <li class="NavlistItems">
           <a href="#contact">Contact</a>
@@ -43,210 +43,216 @@
           <a href="#about">About</a>
         </li>
 
-        <li><img src="img/flame.png" id="rightFlame" width="100" /></li>
+        <li><img src="img/flameTransparentWhite.png" id="rightFlame" width="100" /></li>
       </ul>
     </nav>
 
-    <div class="welcome section">
-      <div class="logo">
-        <img src="img/phoneix.png" alt="phoneix logo"/>
+    <div class="mainContainer">
+
+
+
+      <div class="welcome section">
+        <div class="logo">
+          <img src="img/phoneix-transparent.png" alt="phoneix logo"/>
+        </div>
+        <h1>Femi Coker</h1>
+        <h2>Web Developer</h2>
+        <p><strong id="random"></strong></p>
+        <hr />
       </div>
-      <h1>Femi Coker</h1>
-      <h2>Web Developer</h2>
-      <p><strong id="random"></strong></p>
+
+      <!--ABOUT ME  -->
+      <h2 id="about">About Me</h2>
+      <div class="about section">
+        <img src="img/profile.JPG"
+        width="200" height="300" alt="Femi Coker IMG" class="profile">
+        <div>
+          <p><strong style="font-size: 30px;">My name is Femi and I'm a Developer.</strong></p>
+          <h5>Based in London.</h5>
+          <p>Since my journey down the coding rabbit hole began, I have not looked back. I decided to take a leap from my finance and service careers into the development world. I enrolled in the Immersive web development course at General Assembly to help learn the fundamentals in coding to give me a stepping stone into my next career.<br><br>After a few online courses it soon dawned on me that  I was ready to pursue a career within this ever changing and growing industry. The prospect of having an almost endless resource of tools and community members to help solve problems and create amazing projects was truly amazing. <br><br> I love to learn and am constantly looking on ways to improve my skills. I am currently looking for a job that would be able to help with this. I’m  very excited about the potential with where this new path could lead.</p>
+        </div>
+      </div>
       <hr />
-    </div>
 
-    <!--ABOUT ME  -->
-    <h2 id="about">About Me</h2>
-    <div class="about section">
-      <img src="img/profile.JPG"
-      width="200" height="300" alt="Femi Coker IMG" class="profile">
-      <div>
-        <p><strong style="font-size: 30px;">My name is Femi and I'm a Developer.</strong></p>
-        <h5>Based in London.</h5>
-        <p>Since my journey down the coding rabbit hole began, I have not looked back. I decided to take a leap from my finance and service careers into the development world. I enrolled in the Immersive web development course at General Assembly to help learn the fundamentals in coding to give me a stepping stone into my next career.<br><br>After a few online courses it soon dawned on me that  I was ready to pursue a career within this ever changing and growing industry. The prospect of having an almost endless resource of tools and community members to help solve problems and create amazing projects was truly amazing. <br><br> I love to learn and am constantly looking on ways to improve my skills. I am currently looking for a job that would be able to help with this. I’m  very excited about the potential with where this new path could lead.</p>
-      </div>
-    </div>
-    <hr />
-
-    <!-- PROJECTS -->
-    <!-- Project 4  -->
-    <div id="projects" class="projects">
-      <h2>Projects</h2>
-      <div class="projectContainer make-relative">
-        <h4>Play & Watch</h4>
-        <div class="projectImages">
-          <div class="img1div">
-            <img src="img/PnW/PnWIndex.png" alt="">
-            <div class="img1Overlay" id="pwOverlay"></div>
+      <!-- PROJECTS -->
+      <!-- Project 4  -->
+      <div id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="projectContainer make-relative">
+          <h4>Play & Watch</h4>
+          <div class="projectImages">
+            <div class="img1div">
+              <img src="img/PnW/PnWIndex.png" alt="">
+              <div class="img1Overlay" id="pwOverlay"></div>
+            </div>
+            <div class="img2div" onmouseover="pwOn()" onmouseout="pwOff()">
+              <img src="img/PnW/PnWBasket.png" alt="">
+              <div class="img2Overlay"></div>
+            </div>
+            <div class="img3div" onmouseover="pwOn()" onmouseout="pwOff()">
+              <img src="img/PnW/PnWShow.png" alt="">
+              <div class="img3Overlay"></div>
+            </div>
           </div>
-          <div class="img2div" onmouseover="pwOn()" onmouseout="pwOff()">
-            <img src="img/PnW/PnWBasket.png" alt="">
-            <div class="img2Overlay"></div>
-          </div>
-          <div class="img3div" onmouseover="pwOn()" onmouseout="pwOff()">
-            <img src="img/PnW/PnWShow.png" alt="">
-            <div class="img3Overlay"></div>
-          </div>
+          <p>This app is an e-commerce website that sells both video games and movies. Play & Watch is a full stack application which has all the basic functions of an e-commerce website such as placing orders, keeping track of orders through purchase history, product basket e.t.c. <br><br>This web app is also capable of showing users suggested products based on the genre of their previous purchases. React.js was used to build the front-end. </p>
+          <a href="https://github.com/fcoker/wdi-project-four" class="icon-right" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://play-and-watch.herokuapp.com/" class="icon-left" target="_blank">
+            <i class="fas fa-link"></i>
+          </a>
         </div>
-        <p>This app is an e-commerce website that sells both video games and movies. Play & Watch is a full stack application which has all the basic functions of an e-commerce website such as placing orders, keeping track of orders through purchase history, product basket e.t.c. <br><br>This web app is also capable of showing users suggested products based on the genre of their previous purchases. React.js was used to build the front-end. </p>
-        <a href="https://github.com/fcoker/wdi-project-four" class="icon-right" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="https://play-and-watch.herokuapp.com/" class="icon-left" target="_blank">
-          <i class="fas fa-link"></i>
-        </a>
-      </div>
 
-      <!-- Project 3  -->
-      <div class="projectContainer make-relative">
-        <h4>Events</h4>
-        <div class="projectImages">
-          <div class="img1div">
-            <img src="img/events/eventsHome.png" alt="">
-            <div class="img1Overlay" id="eventsOverlay"></div>
+        <!-- Project 3  -->
+        <div class="projectContainer make-relative">
+          <h4>Events</h4>
+          <div class="projectImages">
+            <div class="img1div">
+              <img src="img/events/eventsHome.png" alt="">
+              <div class="img1Overlay" id="eventsOverlay"></div>
+            </div>
+            <div class="img2div" onmouseover="eventsOn()" onmouseout="eventsOff()">
+              <img src="img/events/profileEvents.png" alt="">
+              <div class="img2Overlay"></div>
+            </div>
+            <div class="img3div" onmouseover="eventsOn()" onmouseout="eventsOff()">
+              <img src="img/events/showEvents.png" alt="">
+              <div class="img3Overlay"></div>
+            </div>
           </div>
-          <div class="img2div" onmouseover="eventsOn()" onmouseout="eventsOff()">
-            <img src="img/events/profileEvents.png" alt="">
-            <div class="img2Overlay"></div>
-          </div>
-          <div class="img3div" onmouseover="eventsOn()" onmouseout="eventsOff()">
-            <img src="img/events/showEvents.png" alt="">
-            <div class="img3Overlay"></div>
-          </div>
+          <p>Eventz is a web app planner that allows users and their friends keep track of and also add new events to it. Users are able to see which shows, restaurants, plays etc, their friends are going to and also let them know in return whether or not they would be attending.<br><br> This web app is mobile friendly and also uses a geolocation API to show event locations. AngularJs was the main framework used.</p>
+          <a href="https://github.com/fcoker/wdi-project-three" class="icon-right" target="_blank">
+            <!-- <img src="img/github-icon.png" class="projectGitImage eventLink" alt=""> -->
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://eventz-planner.herokuapp.com/#!/" class="icon-left" target="_blank">
+            <i class="fas fa-link"></i>
+            <!-- <img src="img/link-icon.png" alt="" class="projectGitLink eventGit" > -->
+          </a>
         </div>
-        <p>Eventz is a web app planner that allows users and their friends keep track of and also add new events to it. Users are able to see which shows, restaurants, plays etc, their friends are going to and also let them know in return whether or not they would be attending.<br><br> This web app is mobile friendly and also uses a geolocation API to show event locations. AngularJs was the main framework used.</p>
-        <a href="https://github.com/fcoker/wdi-project-three" class="icon-right" target="_blank">
-          <!-- <img src="img/github-icon.png" class="projectGitImage eventLink" alt=""> -->
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="https://eventz-planner.herokuapp.com/#!/" class="icon-left" target="_blank">
-          <i class="fas fa-link"></i>
-          <!-- <img src="img/link-icon.png" alt="" class="projectGitLink eventGit" > -->
-        </a>
-      </div>
 
-      <!-- Project 2  -->
-      <div class="projectContainer make-relative">
-        <h4>Circuit Check</h4>
-        <div class="projectImages">
-          <div class="img1div">
-            <img src="img/circuits/circuitsHome.png" alt="">
-            <div class="img1Overlay" id="circuitOverlay"></div>
+        <!-- Project 2  -->
+        <div class="projectContainer make-relative">
+          <h4>Circuit Check</h4>
+          <div class="projectImages">
+            <div class="img1div">
+              <img src="img/circuits/circuitsHome.png" alt="">
+              <div class="img1Overlay" id="circuitOverlay"></div>
+            </div>
+            <div class="img2div" onmouseover="circuitsOn()" onmouseout="circuitsOff()">
+              <img src="img/circuits/flyingLap.png" alt="">
+              <div class="img2Overlay"></div>
+            </div>
+            <div class="img3div" onmouseover="circuitsOn()" onmouseout="circuitsOff()">
+              <img src="img/circuits/registerForm.png" alt="">
+              <div class="img3Overlay"></div>
+            </div>
           </div>
-          <div class="img2div" onmouseover="circuitsOn()" onmouseout="circuitsOff()">
-            <img src="img/circuits/flyingLap.png" alt="">
-            <div class="img2Overlay"></div>
-          </div>
-          <div class="img3div" onmouseover="circuitsOn()" onmouseout="circuitsOff()">
-            <img src="img/circuits/registerForm.png" alt="">
-            <div class="img3Overlay"></div>
-          </div>
+          <p>Circuit Check is a web app that allows users to view details as well as comment reviews on selected U.K race tracks across the country. The app uses NodeJs, Express and MongoDB to store data such as Users and Circuits.<br><br> The web app has user authentication for registration and login. Only authorised users are allowed to edit, delete or add new circuits.</p>
+          <a href="https://circuit-check.herokuapp.com/" class="icon-right" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://circuit-check.herokuapp.com/" class="icon-left" target="_blank">
+            <i class="fas fa-link"></i>
+          </a>
         </div>
-        <p>Circuit Check is a web app that allows users to view details as well as comment reviews on selected U.K race tracks across the country. The app uses NodeJs, Express and MongoDB to store data such as Users and Circuits.<br><br> The web app has user authentication for registration and login. Only authorised users are allowed to edit, delete or add new circuits.</p>
-        <a href="https://circuit-check.herokuapp.com/" class="icon-right" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="https://circuit-check.herokuapp.com/" class="icon-left" target="_blank">
-          <i class="fas fa-link"></i>
-        </a>
-      </div>
 
-      <!-- Project 1  -->
-      <div class="projectContainer make-relative">
-        <h4>Battleships</h4>
-        <div class="projectImages">
-          <div class="img1div">
-            <img src="img/battleship/Screenshot 2019-01-04 at 16.19.52.png" alt="">
-            <div class="img1Overlay" id="battleshipOverlay"></div>
+        <!-- Project 1  -->
+        <div class="projectContainer make-relative">
+          <h4>Battleships</h4>
+          <div class="projectImages">
+            <div class="img1div">
+              <img src="img/battleship/Screenshot 2019-01-04 at 16.19.52.png" alt="">
+              <div class="img1Overlay" id="battleshipOverlay"></div>
+            </div>
+            <div class="img2div" onmouseover="battleOn()" onmouseout="battleOff()">
+              <img src="img/battleship/Screenshot 2019-01-04 at 16.21.15.png" alt="">
+              <div class="img2Overlay"></div>
+            </div>
+            <div class="img3div" onmouseover="battleOn()" onmouseout="battleOff()">
+              <img src="img/battleship/Screenshot 2019-01-05 at 15.13.06.png" alt="">
+              <div class="img3Overlay"></div>
+            </div>
           </div>
-          <div class="img2div" onmouseover="battleOn()" onmouseout="battleOff()">
-            <img src="img/battleship/Screenshot 2019-01-04 at 16.21.15.png" alt="">
-            <div class="img2Overlay"></div>
-          </div>
-          <div class="img3div" onmouseover="battleOn()" onmouseout="battleOff()">
-            <img src="img/battleship/Screenshot 2019-01-05 at 15.13.06.png" alt="">
-            <div class="img3Overlay"></div>
-          </div>
-        </div>
-        <p>This is an online version of the traditional grid game Battleships in which the user plays against computer. Each player has to guess what grid square their opponents ships are on and the objective of the game is to sink all of the opponents ships.<br><br> My version of battleships was made using basic HTML, CSS and JavaScript. Battleships was my pioneer project from General Assembly's Web development immersive course and was done individually.</p>
-        <a href="https://github.com/fcoker/wdi-project-one" class="icon-right" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="https://fcoker.github.io/wdi-project-one/" class="icon-left" target="_blank">
-          <i class="fas fa-link"></i>
-        </a>
-      </div>
-    </div>
-    <hr>
-
-
-    <!--SKILLS  -->
-
-    <h3 id="skills">SKILLS</h3>
-    <div class="skillsContainer">
-      <div class="softSkills">
-        <div class="methodology">
-          <h4>Methodology</h4>
-          <div class="skillCell">RESTful</div>
-          <div class="skillCell">Responsive Design</div>
-          <div class="skillCell">CRUD Methods</div>
-          <div class="skillCell">Trello</div>
-        </div>
-        <h4>Tools</h4>
-        <div class="">
-          <div class="skillCell">Slack</div>
-          <div class="skillCell">Github</div>
-          <div class="skillCell">Git</div>
-          <div class="skillCell">Insomnia</div>
-          <div class="skillCell">Google Docs</div>
-        </div>
-        <h4>Soft Skills</h4>
-        <div class="">
-          <div class="skillCell">Attention to Detail</div>
-          <div class="skillCell">Adaptive</div>
-          <div class="skillCell">Communication Skills</div>
-          <div class="skillCell">Relationship management</div>
-          <div class="skillCell">Logical Thinking</div>
-          <div class="skillCell">Problem Solving</div>
-          <div class="skillCell">Organisation</div>
-          <div class="skillCell">Team Work</div>
+          <p>This is an online version of the traditional grid game Battleships in which the user plays against computer. Each player has to guess what grid square their opponents ships are on and the objective of the game is to sink all of the opponents ships.<br><br> My version of battleships was made using basic HTML, CSS and JavaScript. Battleships was my pioneer project from General Assembly's Web development immersive course and was done individually.</p>
+          <a href="https://github.com/fcoker/wdi-project-one" class="icon-right" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://fcoker.github.io/wdi-project-one/" class="icon-left" target="_blank">
+            <i class="fas fa-link"></i>
+          </a>
         </div>
       </div>
+      <hr>
 
-      <div class="technology">
-        <h4>Technologies</h4>
-        <div class="">
-          <div class="techCell">HTML5</div>
-          <div class="techCell">JavaScript</div>
-          <div class="techCell">CSS</div>
-          <div class="techCell">React.js</div>
-          <div class="techCell">AngularJs</div>
-          <div class="techCell">Bulma</div>
-          <div class="techCell">EJS</div>
-          <div class="techCell">MongoDB</div>
-          <div class="techCell">Node.js</div>
-          <div class="techCell">Express.js</div>
-          <div class="techCell">Yarn</div>
+
+      <!--SKILLS  -->
+
+      <h3 id="skills">SKILLS</h3>
+      <div class="skillsContainer">
+        <div class="softSkills">
+          <div class="methodology">
+            <h4>Methodology</h4>
+            <div class="skillCell">RESTful</div>
+            <div class="skillCell">Responsive Design</div>
+            <div class="skillCell">CRUD Methods</div>
+            <div class="skillCell">Trello</div>
+          </div>
+          <h4>Tools</h4>
+          <div class="">
+            <div class="skillCell">Slack</div>
+            <div class="skillCell">Github</div>
+            <div class="skillCell">Git</div>
+            <div class="skillCell">Insomnia</div>
+            <div class="skillCell">Google Docs</div>
+          </div>
+          <h4>Soft Skills</h4>
+          <div class="">
+            <div class="skillCell">Attention to Detail</div>
+            <div class="skillCell">Adaptive</div>
+            <div class="skillCell">Communication Skills</div>
+            <div class="skillCell">Relationship management</div>
+            <div class="skillCell">Logical Thinking</div>
+            <div class="skillCell">Problem Solving</div>
+            <div class="skillCell">Organisation</div>
+            <div class="skillCell">Team Work</div>
+          </div>
+        </div>
+
+        <div class="technology">
+          <h4>Technologies</h4>
+          <div class="">
+            <div class="techCell">HTML5</div>
+            <div class="techCell">JavaScript</div>
+            <div class="techCell">CSS</div>
+            <div class="techCell">React.js</div>
+            <div class="techCell">AngularJs</div>
+            <div class="techCell">Bulma</div>
+            <div class="techCell">EJS</div>
+            <div class="techCell">MongoDB</div>
+            <div class="techCell">Node.js</div>
+            <div class="techCell">Express.js</div>
+            <div class="techCell">Yarn</div>
+          </div>
         </div>
       </div>
-    </div>
-    <hr />
-    <!--CONTACT  -->
-    <div class="contactContainer" id="contact">
-      <h1>Contact Me.</h1>
-      <p>For further information feel free to contact me.</p>
-      <div class="contactGrid">
-        <a href="https://github.com/fcoker" target="_blank">
-          <img src="img/github.png" alt="git logo" class="contactLogo">
-        </a>
-        <a href="https://www.linkedin.com/in/femi-coker/" target="_blank">
-          <img src="img/linkedin.png" alt="linkedin logo" class="contactLogo">
-        </a>
-        <a href="#">
-          <img src="img/email.png" alt="email logo" class="contactLogo">
-        </a>
+      <hr />
+      <!--CONTACT  -->
+      <div class="contactContainer" id="contact">
+        <h1>Contact Me.</h1>
+        <p>For further information feel free to contact me.</p>
+        <div class="contactGrid">
+          <a href="https://github.com/fcoker" target="_blank">
+            <img src="img/github.png" alt="git logo" class="contactLogo">
+          </a>
+          <a href="https://www.linkedin.com/in/femi-coker/" target="_blank">
+            <img src="img/linkedin.png" alt="linkedin logo" class="contactLogo">
+          </a>
+          <a href="#">
+            <img src="img/email.png" alt="email logo" class="contactLogo">
+          </a>
+
+        </div>
 
       </div>
 
