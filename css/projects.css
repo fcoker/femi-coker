@@ -151,9 +151,9 @@
   font-size: 2.4em;
   position: absolute;
   color: #efefef;
-  right: 120px;
-  left: 0;
+  left: 9.5em;
   text-align: center;
+  width: fit-content;
 }
 
 .icon-left {
@@ -161,9 +161,9 @@
   font-size: 2.4em;
   position: absolute;
   color: #efefef;
-  right: 0;
-  left: 120px;
+  right: 8.5em;
   text-align: center;
+  width: fit-content;
 }
 
 .make-relative {

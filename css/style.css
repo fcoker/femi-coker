@@ -27,17 +27,6 @@ main {
 }
 
 nav{
-  /* position: fixed;
-  z-index: 1000;
-  text-align: center;
-  right: 30px;
-  top: 0px;
-  transform: rotate(270deg);
-  transform-origin: right;
-  width: 48%;
-  background-color: black;
-  opacity: 0.6; */
-
   position: fixed;
   z-index: 1000;
   text-align: center;
@@ -70,19 +59,7 @@ nav ul a {
   color: white;
 }
 
-/* .NavlistItems:hover{
-  background-color: white;
-  opacity: 43.3;
-  padding-bottom: 0.5em;
-  color: black;
-} */
-
 nav ul li a:hover {
-  /* color: black;
-  opacity: 43.3;
-  padding-bottom: 0.5em;
-  width: 100%; */
-
   color: black;
   width: 100%;
   padding-top: 1.23em;
@@ -97,9 +74,6 @@ nav ul li a:hover {
   top: 4px;
     transform: rotate(180deg);
 }
-/* nav ul li:last-child {
-  transform: rotate(180deg);
-} */
 
 .NavlistItems{
   position: relative;
@@ -182,11 +156,12 @@ strong {
 .about{
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 6em;
+  padding-bottom: 2em;
 }
 .about p{
   line-height: 20px;
 }
+
 #about {
   padding-bottom: 0em;
   margin-bottom: -2em;
@@ -197,7 +172,7 @@ strong {
   padding-bottom: 5%;
 }
 
-.about img {
+.aboutImage {
   border-radius: 50%;
   padding: 15px;
   border: 2px solid #d3d3d3;
@@ -275,18 +250,16 @@ strong {
 }
 
 .contactLogo{
-  width: 11%;
+  width: 4.5%;
   border-radius: 100%;
 }
-
-.contactGrid{
-  display: flex;
-  text-align: center;
-}
-
 .contactContainer p{
   padding-bottom: 9%;
   padding-top: 5%;
+}
+
+.linkdAnchor{
+  padding: 0 10em;
 }
 
 ol, ul {
@@ -297,4 +270,17 @@ ol, ul {
   width: 68%;
   margin: 0 auto;
 
+}
+
+#ga{
+  width: 4.5em;
+  height: 4.5em;
+  border: 2px solid #d3d3d3;
+  border-radius: 100%;
+  padding: 5px;
+  margin-top: 0.5em;
+}
+
+.gaDiv{
+    text-align: center;
 }
